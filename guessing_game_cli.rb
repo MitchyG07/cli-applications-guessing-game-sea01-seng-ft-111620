@@ -16,6 +16,7 @@ end
 def run_guessing_game 
   prompt_user
   number = winning_number
+  input = ""
  
  until input === "exit" 
   input = get_user_input 
