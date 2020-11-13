@@ -1,6 +1,6 @@
 # Code your solution here!
 def winning_number 
-  winning_number = rand(7)
+  winning_number = rand(6) + 1 
   winning_number 
 end 
 
