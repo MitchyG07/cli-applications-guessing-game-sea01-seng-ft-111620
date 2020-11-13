@@ -15,7 +15,7 @@ end
 
 def run_guessing_game 
   prompt_user
-  input = get_user_input 
+  number = winning_number
  
  until input === "exit" 
   input = get_user_input 
