@@ -16,10 +16,8 @@ end
 def run_guessing_game 
   prompt_user
   number = winning_number
-  input = ""
- 
- until input === "exit" 
-  input = get_user_input 
+  input = get_user_input
+  
   if input.to_i === number  
     puts "You guessed the correct number!"
   elsif input === "exit"
@@ -27,6 +25,5 @@ def run_guessing_game
   elsif input.to_i != number
     puts "Sorry! The computer guessed #{winning_number}."
   end 
-end 
 end 
 
