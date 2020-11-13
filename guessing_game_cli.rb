@@ -14,11 +14,11 @@ def get_user_input
 end 
 
 def run_guessing_game 
-  number = winning_number 
   prompt_user
   input = get_user_input 
  
  until input === "exit" 
+  input = get_user_input 
   if input.to_i === number  
     puts "You guessed the correct number!"
   elsif input === "exit"
